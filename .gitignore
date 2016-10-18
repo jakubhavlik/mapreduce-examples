@@ -1,12 +1,40 @@
-*.class
+target
+.idea
+*.iml
+nbactions.xml
+nb-configuration.xml
+.project
+.classpath
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#python
+*.pyc
+.python-version
 
-# Package Files #
-*.jar
-*.war
-*.ear
+#robot framework specifics
+log.html
+output.xml
+report.html
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# eclipse specific git ignore
+.metadata
+.settings/
+.loadpath
+/libspecs/
+.pydevproject
+
+red.xml
+.project
+.pydevproject
+
+*.png
+
+# jenkins DSL
+.gradle
+build
+
+# GDI test result
+gdi_generated.xlsx
+
+# py.test runner
+.cache
+results.xml
